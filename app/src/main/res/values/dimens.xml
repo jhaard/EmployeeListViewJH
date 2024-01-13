@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Textstorlekar -->
+    <dimen name="main_size">32sp</dimen>
+    <dimen name="head_size">28sp</dimen>
+    <dimen name="large_size">24sp</dimen>
+    <dimen name="medium_size">20sp</dimen>
+    <dimen name="small_size">16sp</dimen>
+
+    <!-- Marginaler -->
+    <dimen name="edge_margin">25dp</dimen>
+    <dimen name="top_margin">25dp</dimen>
+    <dimen name="vertical_margin">20dp</dimen>
+    <dimen name="horizontal_margin">20dp</dimen>
+
+    <dimen name="listview_height_no">0dp</dimen>
+    <dimen name="divider">10.0dp</dimen>
+    <dimen name="large_bottom_margin">50dp</dimen>
+
+    <dimen name="small_margin">10dp</dimen>
+    <dimen name="medium_margin">20dp</dimen>
+
+    <dimen name="corner_radius">10dp</dimen>
+
+    <!-- Fab marginaler main -->
+    <dimen name="fab_width">200dp</dimen>
+    <dimen name="text_top_margin">40dp</dimen>
+    <dimen name="second_fab_margin_top">90dp</dimen>
+    <dimen name="third_fab_margin_top">180dp</dimen>
+
+    <!-- Small icon margin -->
+    <dimen name="edit_icon_margin">120dp</dimen>
+
+    <!-- Padding -->
+    <dimen name="small_padding">10dp</dimen>
+    <dimen name="medium_padding">20dp</dimen>
+    <dimen name="extra_padding">40dp</dimen>
+</resources>

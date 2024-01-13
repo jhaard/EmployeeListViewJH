@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MemberActivity"
+    android:background="@color/super_light_green">
+
+    <!-- Titel -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_margin"
+        android:textSize="@dimen/main_size"
+        android:text="@string/edit_employees_head"
+        android:fontFamily="@font/quicksand_medium"
+        android:textColor="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Listview -->
+    <ListView
+        android:id="@+id/lv_member"
+        app:barrierMargin="@dimen/vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/listview_height_no"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:layout_marginHorizontal="@dimen/horizontal_margin"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:flow_verticalBias="2"
+        android:layout_marginBottom="@dimen/vertical_margin"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="@dimen/divider"
+
+        />
+
+    <!-- Guideline -->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.75"
+        />
+
+    <!-- Fab back -->
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/vertical_margin"
+        android:layout_marginBottom="@dimen/large_bottom_margin"
+        android:backgroundTint="@color/light_pink"
+        android:contentDescription="@string/fab_content_desc_back"
+        android:fontFamily="@font/palanquin_dark"
+        android:text="@string/back_text_fab"
+        android:textColor="@color/gray"
+        app:icon="@drawable/arrow_back"
+        app:iconPadding="@dimen/medium_padding"
+        app:iconTint="@color/light_brown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

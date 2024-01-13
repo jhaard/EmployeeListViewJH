@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">EmployeeListViewJH</string>
+
+    <!-- Beskrivningar -->
+    <string name="fab_content_desc_add">Add employee</string>
+    <string name="fab_content_desc_back">Back</string>
+
+    <!-- Text i add_employee xml-->
+    <string name="add_employee_head">Add employee</string>
+    <string name="add_employee_id_field">ID: 1</string>
+    <string name="add_employee_hint_age">age</string>
+    <string name="add_employee_hint_salary">salary</string>
+    <string name="add_employee_hint_name">name</string>
+    <string name="waiting_to_add_hint">waiting to add...</string>
+    <string name="add_text_fab">Add</string>
+    <string name="back_text_fab">Back</string>
+
+    <!-- Text i listview -->
+    <string name="main_head_text">Bizz-Nisse\'s Business</string>
+    <string name="fab_content_desc_view">View employees</string>
+    <string name="view_employees_text_fab">View employees</string>
+    <string name="add_employee_text_fab">Add employee</string>
+    <string name="edit_employee_text_fab">Edit employee</string>
+    <string name="edit_employees_head">Edit employees</string>
+    <string name="view_employees_text">View employees</string>
+    <string name="name_list">name</string>
+    <string name="edit_salary_text">edit salary here...</string>
+    <string name="confirm_button_text">OK</string>
+    <string name="edit_age_text">edit age here...</string>
+
+
+</resources>
